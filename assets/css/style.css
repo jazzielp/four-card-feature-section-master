@@ -80,7 +80,7 @@ body{
     margin: 20px 0 0 0;
     border-top: 5px solid black;
     padding: 0 23px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .container-cards__title-card{
@@ -90,10 +90,29 @@ body{
     margin-bottom: 5px;
 }
 
+.container-cards__paragraph-card{
+    color: var(--grayish-blue);
+}
+
 .container-cards__img-card{
     width: 45px;
     height: 45px;
     margin-top: 35px;
-    align-self: flex-end;
-    
+    align-self: flex-end;  
+}
+
+.container-cards__card--one{
+    border-color: var(--cyan);
+}
+
+.container-cards__card--two{
+    border-color: var(--red);
+}
+
+.container-cards__card--three{
+    border-color: var(--orange);
+}
+
+.container-cards__card--four{
+    border-color: var(--blue);
 }
