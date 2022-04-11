@@ -34,7 +34,66 @@ body{
 
 .introduction,
 .container-cards{
-    width: 320px;
-    margin: 75px auto;
+    width: 340px;
+    margin: 0 auto;
+    padding: 0 33px;
 }
 
+.introduction{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.introduction__title{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: var(--very-dark-blue);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.introduction__title span {
+    font-weight: 700;
+    
+}
+
+.introduction__paragraph{
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-cards__card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    margin: 20px 0 0 0;
+    border-top: 5px solid black;
+    padding: 0 23px;
+    border-radius: 15px;
+}
+
+.container-cards__title-card{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 5px;
+}
+
+.container-cards__img-card{
+    width: 45px;
+    height: 45px;
+    margin-top: 35px;
+    align-self: flex-end;
+    
+}
